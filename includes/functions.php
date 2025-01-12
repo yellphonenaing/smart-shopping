@@ -132,7 +132,7 @@ function updateUserAccount($userId,$password) {
 }
 function verifyCaptchaEnterprise($token, $expectedAction) {
     $siteKey = '6LfEfbQqAAAAAFgx8vd62JAnd_h9XNn66qb3ilIL';  // Your reCAPTCHA Site Key
-    $apiKey = 'AIzaSyCmRpPJv4Nck5ZNXO5AVMAwI-6Rh-Bfojk';  // Replace with your API Key from Google Cloud Console
+    $apiKey = '';  // Replace with your API Key from Google Cloud Console
     
     // URL for the reCAPTCHA Enterprise verification API
     $url = 'https://recaptchaenterprise.googleapis.com/v1/projects/smart-shopping-1736594878189/assessments?key=' . $apiKey;
